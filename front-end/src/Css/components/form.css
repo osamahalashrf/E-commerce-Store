@@ -1,0 +1,40 @@
+.form {
+  background-image: linear-gradient(
+      105deg,
+      white 0%,
+      white 50%,
+      transparent 50%
+    ),
+    url("../../../img_1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .form {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.6) 0%,
+        rgba(255, 255, 255, 0.6) 100%
+      ),
+      url("../../../img_1.jpg");
+  }
+
+  .costum-form {
+    width: 100%;
+  }
+}
+
+.form-controller input:focus:valid {
+  border-bottom: 3px solid green;
+}
+
+.form-controller input:focus:not(:valid) {
+  border-bottom: 3px solid orange;
+}
+
+.form-controller input:placeholder-shown + label {
+  opacity: 0;
+  visibility: hidden;
+  top: 20px;
+}
