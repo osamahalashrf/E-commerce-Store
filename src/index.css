@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* my specefic */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+
+.f-cairo {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.low-shadow {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.08);
+}
