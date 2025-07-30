@@ -13,7 +13,6 @@ import AddCategory from "./Pages/Dashboard/Category/AddCategory";
 import Category from "./Pages/Dashboard/Category/Category";
 import Products from "./Pages/Dashboard/Product/Products";
 import AddProduct from "./Pages/Dashboard/Product/AddProduct";
-import Dashboard from "./Pages/Dashboard/Dashboard";
 import Register from "./Pages/Auth/AuthOperations/Register";
 import Login from "./Pages/Auth/AuthOperations/Login";
 import GoogleCallBack from "./Pages/Auth/AuthOperations/GoogleCallBack";
@@ -22,6 +21,7 @@ import HomePage from "./Pages/Website/HomePage/HomePage";
 import WibSiteCategories from "./Pages/Website/Categories/Categories";
 import WebSite from "./Pages/Website/WebSite";
 import SingleProduct from "./Pages/Website/SingleProduct/SingleProduct";
+import Dashboard from "./Pages/Dashboard/dashboard";
 
 function App() {
   return (
