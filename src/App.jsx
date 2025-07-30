@@ -21,7 +21,7 @@ import HomePage from "./Pages/Website/HomePage/HomePage";
 import WibSiteCategories from "./Pages/Website/Categories/Categories";
 import WebSite from "./Pages/Website/WebSite";
 import SingleProduct from "./Pages/Website/SingleProduct/SingleProduct";
-import Dashboard from "./Pages/Dashboard/dashboard";
+import Dashboard from "./Pages/Dashboard/Dashboard";
 
 function App() {
   return (

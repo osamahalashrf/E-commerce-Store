@@ -4,7 +4,7 @@ import { CATEGORIES, PRODUCT } from "../../../Api/Api";
 import Loading from "../../../Components/Loading/Loading";
 import { useNavigate } from "react-router-dom";
 import uploadImage from "../../../assets/images/upload.png";
-import "../dashboard";
+import "../Dashboard";
 
 export default function AddProduct() {
   //state
