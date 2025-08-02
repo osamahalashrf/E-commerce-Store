@@ -39,13 +39,13 @@ export default function ProfileMenu() {
                 to="/login"
                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700"
               >
-                تسجيل الدخول
+                Login
               </Link>
               <Link
                 to="/register"
                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700"
               >
-                إنشاء حساب
+                Register
               </Link>
             </>
           ) : (
@@ -54,13 +54,13 @@ export default function ProfileMenu() {
                 onClick={() => navigate("/dashboard/users")}
                 className="w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700"
               >
-                لوحة التحكم
+                Dashboard
               </button>
               <button
                 onClick={handleLogout}
                 className="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-red-100 dark:text-red-400 dark:hover:bg-gray-700"
               >
-                تسجيل الخروج
+                Logout
               </button>
             </>
           )}

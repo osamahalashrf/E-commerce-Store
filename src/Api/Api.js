@@ -1,5 +1,5 @@
 //Auth
-export const baseURL = `https://backendfore-commerce-production.up.railway.app/api`;
+export const baseURL = `https://backendfore-commerce-production.up.railway.app`;
 
 export const REGISTER = "register";
 
