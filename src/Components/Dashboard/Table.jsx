@@ -94,7 +94,7 @@ export default function TableShow(props) {
                 <img
                   key={key}
                   className="w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14"
-                  src={img.image}
+                  src={"https://backendfore-commerce-production.up.railway.app" + img.image}
                   alt=""
                 />
               ))}
