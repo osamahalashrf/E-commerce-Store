@@ -86,7 +86,7 @@ export default function TableShow(props) {
         >
           {item2.key === "image" ? (
             <div className="flex justify-center">
-              <img width={"50px"} src={item[item2.key]} alt="" />
+              <img width={"50px"} src={"https://backendfore-commerce-production.up.railway.app" + item[item2.key]} alt="" />
             </div>
           ) : item2.key === "images" ? (
             <div className="flex items-center justify-start flex-wrap gap-2">

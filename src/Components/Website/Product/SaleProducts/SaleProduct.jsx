@@ -38,7 +38,7 @@ export default function SaleProduct(props) {
             </p>
           )}
           <img
-            src={props.img}
+            src={"https://backendfore-commerce-production.up.railway.app" + props.img}
             alt="img"
             className="w-full h-auto object-cover rounded-md"
           />

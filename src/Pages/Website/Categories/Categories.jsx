@@ -17,7 +17,7 @@ export default function WibSiteCategories() {
   const showCategories = categories.map((item, key) => (
     <div key={key} className="rounded">
       <div className="p-3 m-1 bg-white border flex items-center justify-start gap-3 rounded py-2 h-full">
-        <img className=" ms-3" width={"50px"} src={item.image} alt="img" />
+        <img className=" ms-3" width={"50px"} src={"https://backendfore-commerce-production.up.railway.app" + item.image} alt="img" />
         <p className=" m-0">{StringSlice(item.title, 15)}</p>
       </div>
     </div>

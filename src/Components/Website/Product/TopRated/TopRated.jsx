@@ -22,7 +22,7 @@ export default function TopRated(props) {
       className="m-2 rounded p-3 h-full flex flex-col md:flex-row items-center md:justify-start justify-center border"
     >
       <div className="px-5 py-4">
-        <img src={props.img} alt="img" className="w-full object-cover rounded-md" />
+        <img src={"https://backendfore-commerce-production.up.railway.app" + props.img} alt="img" className="w-full object-cover rounded-md" />
       </div>
 
       <div className="flex flex-col justify-between mt-2">
