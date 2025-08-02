@@ -49,7 +49,7 @@ export default function Login() {
       const role = res.data.user.role;
       const go = role === "1995" ? "users" : "writer";
       cookie.set("e-commerce", token);
-      nav( `/dashboard/${go}`);
+      window.location.pathname = `/dashboard/${go}`;
       //nav(`/dashboard/${go}`);
     } catch (err) {
       setLoading(false);
