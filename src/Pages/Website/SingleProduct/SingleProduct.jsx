@@ -38,8 +38,8 @@ export default function SingleProduct() {
         setProductImages(
           res.data[0].images.map((img) => {
             return {
-              original: img.image,
-              thumbnail: img.image,
+              original: "https://backendfore-commerce-production.up.railway.app" + img.image,
+              thumbnail: "https://backendfore-commerce-production.up.railway.app" + img.image,
             };
           })
         );
@@ -133,7 +133,7 @@ export default function SingleProduct() {
           <>
             <div className="w-full lg:w-1/2">
               <ImageGallery
-                items={"https://backendfore-commerce-production.up.railway.app" + productImages}
+                items={productImages}
                 showPlayButton={false}
                 showFullscreenButton={false}
                 thumbnailPosition="bottom"
