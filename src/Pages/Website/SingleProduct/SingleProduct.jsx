@@ -131,7 +131,7 @@ export default function SingleProduct() {
           </>
         ) : (
           <>
-            <div className="w-full h-8 lg:w-1/2">
+            <div className="md:w-full w-16 h-16">
               <ImageGallery
                 items={productImages}
                 showPlayButton={false}
