@@ -9,7 +9,7 @@ export default function Landing() {
             Shampoo Nice
           </h1>
           <h5 className="font-normal text-white text-sm md:text-base">
-            Another Nice Things Which used by someone I don't know (just random
+            Another Nice Things Which used by someone I dont know (just random
             text)
           </h5>
           <Link

@@ -15,7 +15,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 export default function SingleProduct() {
   const [product, setProduct] = useState([]);
   const [count, setCount] = useState(1);
-  const [productImages, setProductImages] = useState([]);
+  const ["https://backendfore-commerce-production.up.railway.app" + productImages, set"https://backendfore-commerce-production.up.railway.app" + ProductImages] = useState([]);
   const [loadingCart, setLoadingCart] = useState(false);
   const [loading, setLoading] = useState(true);
 
@@ -35,7 +35,7 @@ export default function SingleProduct() {
   useEffect(() => {
     Axios.get(`${PRODUCT}/${id}`)
       .then((res) => {
-        setProductImages(
+        set"https://backendfore-commerce-production.up.railway.app" + ProductImages(
           res.data[0].images.map((img) => {
             return {
               original: img.image,
@@ -133,7 +133,7 @@ export default function SingleProduct() {
           <>
             <div className="w-full lg:w-1/2">
               <ImageGallery
-                items={productImages}
+                items={"https://backendfore-commerce-production.up.railway.app" + productImages}
                 showPlayButton={false}
                 showFullscreenButton={false}
                 thumbnailPosition="bottom"
