@@ -15,7 +15,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 export default function SingleProduct() {
   const [product, setProduct] = useState([]);
   const [count, setCount] = useState(1);
-  const ["https://backendfore-commerce-production.up.railway.app" + productImages, set"https://backendfore-commerce-production.up.railway.app" + ProductImages] = useState([]);
+  const [productImages, setProductImages] = useState([]);
   const [loadingCart, setLoadingCart] = useState(false);
   const [loading, setLoading] = useState(true);
 
@@ -35,7 +35,7 @@ export default function SingleProduct() {
   useEffect(() => {
     Axios.get(`${PRODUCT}/${id}`)
       .then((res) => {
-        set"https://backendfore-commerce-production.up.railway.app" + ProductImages(
+        setProductImages(
           res.data[0].images.map((img) => {
             return {
               original: img.image,
